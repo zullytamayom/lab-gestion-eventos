@@ -1,0 +1,59 @@
+body {
+  background-color: #f5f7fa;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.producto-card {
+  border-radius: 15px;
+  padding: 20px;
+  transition: 0.3s;
+  border: none;
+  background: white;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.producto-card:hover {
+  transform: translateY(-5px);
+}
+
+.precio {
+  color: #0C7C66;
+  font-weight: bold;
+}
+
+.btn-agregar {
+  background: #0C7C66;
+  color: white;
+  border: none;
+  padding: 8px;
+  border-radius: 10px;
+  width: 100%;
+  transition: 0.3s;
+}
+
+.btn-agregar:hover {
+  background: #095c4d;
+}
+
+#lista-carrito {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.list-group-item {
+  border: none;
+  border-bottom: 1px solid #eee;
+}
+
+.btn-eliminar {
+  background: crimson;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  padding: 3px 8px;
+}
+
+.img-producto {
+  width: 280px;
+  border-radius: 10px;
+}
